@@ -88,7 +88,6 @@ public class SAPECCProxy {
 		materials = this.consultSapTable("MARA", ";", "0", "3000", "LAEDA > '"+dateFormatted+"'", fields);
 		materials.setRow(0);
 //		String query = "SELECT * FROM dbo.OITM WHERE UpdateDate >= ? ORDER BY UpdateDate ASC";
-//		String overridequery = delegate.config.getProperty("filterquerysqloverride");
 //		if(overridequery != null && overridequery.length() > 0) {
 //			query = overridequery;
 //		} 20060613
